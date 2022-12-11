@@ -1,3 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS `RecruitmentExercise` DEFAULT CHARACTER SET utf8 ;
+USE `RecruitmentExercise` ;
+
+
 Create table RecruitmentExercise.users
 (
     id          int         not null AUTO_INCREMENT comment 'id',
